@@ -17,46 +17,6 @@
   <link rel="stylesheet" href="https://unpkg.com/concrete.css@2.1.1/concrete.css">
 
   <meta name="theme-color" content="#ffffff">
-
-  <style>
-    .badge {
-      height: 3.5rem;
-      border: .2rem solid #111;
-    }
-
-    figure.highlight {
-      margin-left: 0;
-      margin-right: 0;
-    }
-
-    .row {
-      display: flex;
-      flex-direction: column;
-      padding: 0;
-    }
-
-    .row .column {
-      display: block;
-      flex: 1 1 auto;
-      margin-left: 0;
-      max-width: 100%;
-      width: 100%;
-    }
-
-    @media (min-width: 40.0rem) {
-      .row {
-        flex-direction: row;
-        margin: 0 -1rem;
-        width: calc(100% + 2rem);
-      }
-
-      .row .column {
-        margin-bottom: inherit;
-        padding: 0 1.0rem;
-      }
-    }
-  </style>
-
 </head>
 
 <body>
@@ -78,17 +38,9 @@
       <p>This is a classless CSS stylesheet, built for lightness and simplicity.</p>
       <p>Concrete can be a great starting point for a simple website.</p>
       <p>It also switches to a <strong>dark theme</strong> if your OS uses one.</p>
+      <p>Concrete weighs less than <a href="https://bundlephobia.com/result?p=concrete.css">1kb minzipped</a>.</p>
       <p>Best used in pair with <a href="https://necolas.github.io/normalize.css/">normalize.css</a>.</p>
-      <p>Inspired by <a href="https://milligram.io">Milligram</a> and <a href="http://getskeleton.com/">Skeleton</a>.
-      </p>
-      <p>
-        <a href="https://www.npmjs.com/package/concrete.css"><img class="badge" alt="Version badge"
-            src="https://img.shields.io/npm/v/concrete.css.svg?color=fff&labelColor=fff&style=flat-square"></a>
-        <a href="https://bundlephobia.com/result?p=concrete.css"><img class="badge" alt="Size badge"
-            src="https://img.shields.io/bundlephobia/minzip/concrete.css.svg?color=fff&labelColor=fff&style=flat-square"></a>
-        <a href="https://www.npmjs.com/package/concrete.css"><img class="badge" alt="Downloads badge"
-            src="https://img.shields.io/npm/dw/concrete.css.svg?color=fff&labelColor=fff&style=flat-square"></a>
-      </p>
+      <p>Inspired by <a href="https://milligram.io">Milligram</a> and <a href="http://getskeleton.com/">Skeleton</a>.</p>
     </section>
 
     <section>
@@ -118,23 +70,17 @@ import 'concrete.css'</code></pre>
     <section>
       <h2>Typography</h2>
       <p>Concrete does not redefine headings, although normalize does. This is what you can expect:</p>
-      <div class="row">
-        <div class="column">
-          <h2>h2 heading</h2>
-          <h3>h3 heading</h3>
-          <h4>h4 heading</h4>
-          <h5>h5 heading</h5>
-          <h6>h6 heading</h6>
-        </div>
-        <div class="column">
-          <p>I can simply be a paragraph.</p>
-          <p>I can be <a href="./">a link</a>.</p>
-          <p>I can be <strong>bold</strong>.</p>
-          <p>I can be <u>underlined</u>.</p>
-          <p>I can be <em>emphasised</em>.</p>
-          <p>I can be <small>small</small>.</p>
-        </div>
-      </div>
+      <h2>h2 heading</h2>
+      <h3>h3 heading</h3>
+      <h4>h4 heading</h4>
+      <h5>h5 heading</h5>
+      <h6>h6 heading</h6>
+      <p>I can simply be a paragraph.</p>
+      <p>I can be <a href="./">a link</a>.</p>
+      <p>I can be <strong>bold</strong>.</p>
+      <p>I can be <u>underlined</u>.</p>
+      <p>I can be <em>emphasised</em>.</p>
+      <p>I can be <small>small</small>.</p>
     </section>
 
     <section>
@@ -169,7 +115,7 @@ import 'concrete.css'</code></pre>
     <section>
       <h2>Images</h2>
       <p>Simply add an image element, and voilà !</p>
-      <img alt="Placeholder" src="https://picsum.photos/640/480?grayscale">
+      <img alt="Checkered background" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAoAAAAHgCAIAAAC6s0uzAAAIKUlEQVR4nO3YsY0FQQgFweHyz5lvXA60sVUJoGe1xLzO7t4fnZn7o//sPWDvGXsP2Hsm2ft3fxIAEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAAMAAPANs7vN4Znk7nsvmWzvGXsP2HvG3gPVXi9oAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADAADwDRPe3t37ozPZZHsP2HvG3gP2nkn2ekEDQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAIBvmN1tDs8kd997yWR7z9h7wN4z9h6o9npBA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAACAb5jw9u7eH53JJtt7wN4z9h6w90yy1wsaAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAAAB8w+xuc3gmufveSybbe8beA/aesfdAtdcLGgACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAAAAAfMOEt3f3/uhMNtneA/aesfeAvWeSvV7QABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGAADgG2Z3m8Mzyd33XjLZ3jP2HrD3jL0Hqr1e0AAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBgAA4BsmvL2790dnssn2HrD3jL0H7D2T7PWCBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAAA3zC72xyeSe6+95LJ9p6x94C9Z+w9UO31ggaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAAAN8w4e3dvT86k02294C9Z+w9YO+ZZK8XNAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAAQAA+IbZ3ebwTHL3vZdMtveMvQfsPWPvgWqvFzQABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEg8ANxNSOcDO0VTgAAAABJRU5ErkJggg==">
     </section>
 
     <section>
@@ -194,16 +140,10 @@ import 'concrete.css'</code></pre>
       <form>
         <fieldset>
           <legend>Please enter your information</legend>
-          <div class="row">
-            <div class="column">
-              <label for="firstname">First Name</label>
-              <input type="text" name="firstname" id="firstname">
-            </div>
-            <div class="column">
-              <label for="lastname">Last Name</label>
-              <input type="text" name="lastname" id="lastname">
-            </div>
-          </div>
+          <label for="firstname">First Name</label>
+          <input type="text" name="firstname" id="firstname">
+          <label for="lastname">Last Name</label>
+          <input type="text" name="lastname" id="lastname">
           <label for="os">Operating System</label>
           <select name="os" id="os">
             <option value="GNU/Linux">GNU/Linux</option>
