@@ -11,7 +11,47 @@
 
   <title>concrete.css</title>
 
-  <link rel="stylesheet" href="./concrete.css">
+  <style>
+/*! concrete.css v2.1.1 | MIT License | github.com/louismerlin/concrete.css */
+:root{--fg:#111;--bg:#fff}
+@media(prefers-color-scheme:dark){:root{--fg:#fff;--bg:#111}}
+html{font-size:1.25rem;box-sizing:border-box}*,::after,::before{box-sizing:inherit;text-decoration-thickness:.1rem}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:Helvetica,Arial,sans-serif}
+a{color:var(--fg)}
+img{max-width:100%;height:auto}
+main section+section{padding:2rem 0}
+body>header,body>main,body>footer{margin:auto;max-width:660px;padding-left:10px;padding-right:10px;width:100%}
+body>header{padding-top:8rem;padding-bottom:8rem;font-size:1.2em}
+h1{font-size:2em}
+h2{font-size:1.5em}
+h3{font-size:1.17em}
+h4{font-size:1.00em}
+h5{font-size:0.83em}
+h6{font-size:0.67em}
+footer{text-align:center}
+button,input[type="button"],input[type="reset"],input[type="submit"]{display:inline-block;vertical-align:middle;padding:.2rem.5rem;font-size:1rem;font-weight:normal;margin-bottom:.5rem;background:var(--bg);color:var(--fg);border:.1rem solid var(--fg);border-radius:0;cursor:pointer}
+button:disabled,input[type="button"]:disabled,input[type="reset"]:disabled,input[type="submit"]:disabled{border-style:dashed;cursor:not-allowed}
+ul{list-style:square}
+fieldset{border:.1rem solid var(--fg)}
+label,legend{display:block;font-weight:bold;margin-bottom:.4rem}
+input[type="email"],input[type="number"],input[type="password"],input[type="search"],input[type="tel"],input[type="text"],input[type="url"],textarea,select{-webkit-appearance:none;-moz-appearance:none;appearance:none;box-shadow:none;box-sizing:inherit;padding:.2rem.5rem;width:100%;font-size:1rem;color:var(--fg);background-color:var(--bg);border:.1rem solid var(--fg);border-radius:0;font-family:Helvetica,Arial,sans-serif}
+fieldset,input,select,textarea{margin:0 0 .8rem 0}
+input::placeholder,textarea::placeholder{color:var(--fg);font-style:italic;opacity:1}
+table{width:100%;border-spacing:0}
+td,th{padding:.4rem}
+td:first-child,th:first-child{padding-left:0}
+td:last-child,th:last-child{padding-right:0}
+th{border-bottom:.1rem solid var(--fg);text-align:left}
+td{border-bottom:.05rem solid var(--fg)}
+blockquote,pre{margin-left:0;margin-right:0;padding:.5rem.8rem;border-left:.1rem solid var(--fg);overflow-y:hidden}
+pre{border:0.05rem dotted var(--fg);border-left:0.1rem solid var(--fg)}
+pre>code{white-space:pre;display:block;font-size:.8rem}
+progress{-moz-appearance:none;-webkit-appearance:none;display:block;height:.5rem;overflow:hidden;padding:0;width:100%;background:var(--bg);color:var(--fg);border:.1rem solid var(--fg);border-radius:0}
+progress::-webkit-progress-bar{background-color:var(--bg)}
+progress::-webkit-progress-value{background-color:var(--fg)}
+progress::-moz-progress-bar{background-color:var(--fg)}
+hr{border:.05rem solid var(--fg)}
+  </style>
 </head>
 
 <body>
